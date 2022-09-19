@@ -11,47 +11,29 @@ body h1{
     display: flex;
     background-color:cadetblue;
     flex-direction:row;
+    flex-wrap: wrap;
     font-size: 20px;
-}
-.div1{
     margin: 20px;
-    padding: 50px;
-    background-color: aliceblue;   
 }
-.div2{
-    margin: 20px;
-    padding: 50px;
-    background-color: aliceblue;   
-}
-.div3{
-    margin: 20px;
-    padding: 50px;
+.flex-container > div {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    line-height: 20px;
     background-color: aliceblue;   
 }
 
 .vertical-flex{
     display: flex;
     background-color: blanchedalmond;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 20px;
+    margin: 20px;
     color:yellow;
 }
-.vertical-flex div{
+.vertical-flex > div{
     background-color: cadetblue;
-}
-.ver-1{
     margin: 20px;
     padding: 50px;
+    flex-wrap: wrap;
 }
-.ver-2{
-    margin: 20px;
-    padding: 50px;
-}
-.ver-3{
-    margin: 20px;
-    padding: 50px;
-}
-
-
-
-
